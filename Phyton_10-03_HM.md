@@ -1,6 +1,86 @@
 # №2 ЕГЭ информатика
 ## №18614 https://inf-ege.sdamgia.ru/problem?id=18614
+### <img width="837" height="255" alt="image" src="https://github.com/user-attachments/assets/7a350daa-033b-45ce-bab0-937e64c2a2b8" />
+### Используем для этого скрипт:
+```
+print ('x y w z')
+for x in range(2):
+    for y in range(2):
+        for w in range(2):
+            for z in range(2):
+                if not (((w <= (not x)) == (z <= y)) and (y or w)):
+                    print(x, y, w, z)
+```
+### Все выданные варианты:
+### x y w z
+### 0 0 0 0
+### 0 0 0 1
+### 0 0 1 1
+### 1 0 0 0
+### 1 0 0 1
+### 1 0 1 0
+### 1 1 1 0
+### 1 1 1 1
+### и
+```
+print ('x y w z')
+for x in range(2):
+    for y in range(2):
+        for w in range(2):
+            for z in range(2):
+                if (((w <= (not x)) == (z <= y)) and (y or w)):
+                    print(x, y, w, z)
+```
+### x y w z
+### 0 0 1 0
+### 0 1 0 0
+### 0 1 0 1
+### 0 1 1 0
+### 0 1 1 1
+### 1 0 1 1
+### 1 1 0 0
+### 1 1 0 1
+### Cопоставив цифры, видно что ответ: *xwyz*
 
+## №18704 [https://inf-ege.sdamgia.ru/problem?id=18614](https://inf-ege.sdamgia.ru/problem?id=18704)
+### <img width="833" height="255" alt="image" src="https://github.com/user-attachments/assets/e39a5835-3499-4edf-9467-b4c9cbbe61fa" />
+
+### Используем для этого скрипт:
+```
+print("x y z w")
+for x in range(0, 2):
+    for y in range(0, 2):
+        for z in range(0, 2):
+            for w in range(0, 2):
+                if (x or not y) and not(w == z) and w:
+                    print(x, y, z, w)
+```
+### Все выданные варианты:
+### x y z w
+### 0 0 0 1
+### 1 0 0 1
+### 1 1 0 1
+### Cопоставив цифры, видно что ответ: *wzyx*
+
+## №19051 [[https://inf-ege.sdamgia.ru/problem?id=18614](https://inf-ege.sdamgia.ru/problem?id=18704)](https://inf-ege.sdamgia.ru/problem?id=19051)
+<img width="836" height="247" alt="image" src="https://github.com/user-attachments/assets/3890c959-d618-4583-b770-d3f9ba6c0776" />
+
+### Используем для этого скрипт:
+```
+print("x y z w")
+for x in range(0, 2):
+    for y in range(0, 2):
+        for z in range(0, 2):
+            for w in range(0, 2):
+                if not((x and not y) or (x == z) or not w):
+                    print(x, y, z, w)
+```
+### Все выданные варианты:
+### x y z w
+### 0 0 1 1
+### 0 1 1 1
+### 1 1 0 1
+### Cопоставив цифры, видно что ответ: *xwzy*
 
 # Задание 8 из ЕГЭ по информатике
 ## №27539 [https://inf-ege.sdamgia.ru/problem?id=17328](https://inf-ege.sdamgia.ru/problem?id=27539)
