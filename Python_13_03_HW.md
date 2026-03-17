@@ -1,6 +1,6 @@
 <img width="729" height="303" alt="image" src="https://github.com/user-attachments/assets/caa83f28-2e08-4021-932c-98574bf31f92" />
 
-# Разберем эту задачу по полочкам.
+# Разберем эту задачу по полочкам
 ```
 n = int(input()) #Вводим число
 r = bin(n) #Переводим в двоичную степень
