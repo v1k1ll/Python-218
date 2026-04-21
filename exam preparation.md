@@ -8,6 +8,14 @@
 
 ##
 ВСЕ ЗАДАНИЯ РЕШАЮТСЯ НА САЙТЕ "СДАМ ЕГЭ".  
+##
+1
+##
+2
+##
+3
+##
+4
 № 15618  
 <img width="843" height="231" alt="image" src="https://github.com/user-attachments/assets/a242d36d-76a3-4ae2-b352-3c61ae62248c" />  
 Напишем код для подбора значений
@@ -20,3 +28,5 @@ for x in range(0,2):
                 if not ((x and not (y)) or (y == z) or not (w)):
                     print (x,y,z,w)
 ```
+Ответ: wzyx
+##
