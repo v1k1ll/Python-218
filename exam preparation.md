@@ -9,15 +9,18 @@
 ##
 ВСЕ ЗАДАНИЯ РЕШАЮТСЯ НА САЙТЕ "СДАМ ЕГЭ".  
 ##
-1
+1  
+№ 28677  
+<img width="844" height="218" alt="image" src="https://github.com/user-attachments/assets/ebb5881d-cd72-48a1-8515-1958edab8fec" />
+
 ##
 2
 ##
 3
 ##
-4
+4  
 № 15618  
-<img width="843" height="231" alt="image" src="https://github.com/user-attachments/assets/a242d36d-76a3-4ae2-b352-3c61ae62248c" />  
+<img width="839" height="224" alt="image" src="https://github.com/user-attachments/assets/6cc472d2-c6f7-4790-91af-e25e41159acd" />  
 Напишем код для подбора значений
 ```
 print('x y z w')
