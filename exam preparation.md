@@ -1,4 +1,4 @@
-# ПОДГОТОВКА К ЭКЗАМЕНУ. ЗАДАНИЯ НА ПОДБОР.
+<img width="572" height="273" alt="image" src="https://github.com/user-attachments/assets/a72e90c4-f8d6-4111-ac94-08d15f470cd1" /># ПОДГОТОВКА К ЭКЗАМЕНУ. ЗАДАНИЯ НА ПОДБОР.
 ## ШПАРГАЛКА В САМОМ НАЧАЛЕ
 ∧ - and,   
 ∨ - or,  
@@ -12,6 +12,7 @@
 1  
 № 28677  
 <img width="836" height="215" alt="image" src="https://github.com/user-attachments/assets/33c1ed27-5ef7-4cd1-b811-733df48dedbe" />  
+Ответ:
 
 ##
 2
