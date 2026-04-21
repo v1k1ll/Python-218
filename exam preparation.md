@@ -11,7 +11,7 @@
 ##
 1  
 № 28677  
-<img width="844" height="218" alt="image" src="https://github.com/user-attachments/assets/ebb5881d-cd72-48a1-8515-1958edab8fec" />
+<img width="836" height="215" alt="image" src="https://github.com/user-attachments/assets/33c1ed27-5ef7-4cd1-b811-733df48dedbe" />  
 
 ##
 2
