@@ -3,7 +3,9 @@
 ∨ - or,  
 ≡ - ==,   
 ¬ - not (букву брать в скобки)  
-→ - <=
+→ - <=  
+0 - ложь  
+1 - истина
 
 ##
 ВСЕ ЗАДАНИЯ РЕШАЮТСЯ НА САЙТЕ "СДАМ ЕГЭ".  
@@ -80,3 +82,9 @@ for x in range(0, 2):
 ```
 Ответ:yxwz
 ##
+6  
+№18614  
+<img width="828" height="252" alt="image" src="https://github.com/user-attachments/assets/2be8a9ae-cccf-49b4-b4a9-2d0e2d06f8d4" />  
+````
+
+```
