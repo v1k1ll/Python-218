@@ -67,7 +67,7 @@ for x in range(0,2):
 Ответ:wzyx
 ##
 5
-№15970
+№15970  
 <img width="835" height="254" alt="image" src="https://github.com/user-attachments/assets/639959f1-1741-4c64-934f-61d2d1cfa4df" />  
 ```
 print('x y z w')
