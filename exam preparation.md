@@ -82,9 +82,37 @@ for x in range(0, 2):
 ```
 Ответ:yxwz
 ##
+# РАЗОБРАТЬ 6
 6  
 №18614  
 <img width="828" height="252" alt="image" src="https://github.com/user-attachments/assets/2be8a9ae-cccf-49b4-b4a9-2d0e2d06f8d4" />  
+чтоб узнать ложную строку
 ````
+print('x y z w')
+for x in range(0,2):
+    for y in range(0,2):
+        for z in range(0,2):
+            for w in range(0,2):
+                if not (((w <= (not x)) == (z <= y)) and (y or w)):
+                    print(x,y,z,w)
+```
+чтоб узнать истиную строку
+```
+print('x y z w')
+for x in range(0,2):
+    for y in range(0,2):
+        for z in range(0,2):
+            for w in range(0,2):
+                if ((w <= (not x)) == (z <= y)) and (y or w):
+                    print(x,y,z,w)
+```
+Ответ:xwyz
+##
+# ИСМАИЛОВ
+7
+№55589
+<img width="771" height="327" alt="image" src="https://github.com/user-attachments/assets/73b17767-95dd-4ed3-9e40-e8f4c8653a40" />  
+```
 
 ```
+Ответ:
