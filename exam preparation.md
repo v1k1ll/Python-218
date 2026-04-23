@@ -53,7 +53,7 @@ for x in range(0,2):
 Ответ:xzyw
 ##
 4  
-№ 15618  
+№15618  
 <img width="839" height="224" alt="image" src="https://github.com/user-attachments/assets/6cc472d2-c6f7-4790-91af-e25e41159acd" />  
 ```
 print('x y z w')
@@ -64,5 +64,19 @@ for x in range(0,2):
                 if not ((x and not (y)) or (y == z) or not (w)):
                     print (x,y,z,w)
 ```
-Ответ: wzyx
+Ответ:wzyx
+##
+5
+№15970
+<img width="835" height="254" alt="image" src="https://github.com/user-attachments/assets/639959f1-1741-4c64-934f-61d2d1cfa4df" />  
+```
+print('x y z w')
+for x in range(0, 2):
+    for y in range(0, 2):
+        for z in range(0, 2):
+            for w in range(0, 2):
+                if not((x and not(y)) or (y == z) or w):
+                    print(x,y,z,w)
+```
+Ответ:yxwz
 ##
