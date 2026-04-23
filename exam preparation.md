@@ -38,7 +38,19 @@ for x in range(0, 2):
 ```
 Ответ:xzy
 ##
-3 xzyw
+3  
+№26974  
+<img width="828" height="262" alt="image" src="https://github.com/user-attachments/assets/60ef0b90-30a0-44e1-8ef5-607fc8616c49" />  
+```
+print('x y z w')
+for x in range(0,2):
+    for y in range(0,2):
+        for z in range(0,2):
+            for w in range(0,2):
+                if (x or y) and not((y == z))  and not(w):
+                    print(x,y,z,w)
+```
+Ответ:xzyw
 ##
 4  
 № 15618  
