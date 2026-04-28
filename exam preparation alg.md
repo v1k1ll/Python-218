@@ -117,3 +117,11 @@ for x in range(0,2):
 
 ```
 Ответ:
+##
+# Сергеев
+8  
+№48423  
+<img width="776" height="286" alt="image" src="https://github.com/user-attachments/assets/500f62fb-7e97-4b9a-944e-34c4641db31e" />  
+```
+
+```
