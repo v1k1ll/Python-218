@@ -114,7 +114,14 @@ for x in range(0,2):
 №55589  
 <img width="771" height="327" alt="image" src="https://github.com/user-attachments/assets/73b17767-95dd-4ed3-9e40-e8f4c8653a40" />  
 ```
-
+print('x y z w f1 f2')
+for x in range(0,2):
+    for y in range(0,2):
+        for z in range(0,2):
+            for w in range(0,2):
+                f1 = (x <= y) == (w or (not z))
+                f2 = (x<=y) and ((not w) == z)
+                print(x,y,z,w,int(f1), int(f2))
 ```
 Ответ:
 ##
