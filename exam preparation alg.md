@@ -162,4 +162,4 @@ for x in range(2):
                 if not(((x <= y) and (y <= w)) or (z == (x or y))):
                     print(x, y, z, w)
 ```
-Ответ:
+Ответ: ywzx
