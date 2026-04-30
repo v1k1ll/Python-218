@@ -148,3 +148,18 @@ for x in range(2):
                     print(x, y, z, w)
 ```
 Ответ: yxwz
+##
+# Исроилов
+8  
+№15787  
+<img width="919" height="277" alt="image" src="https://github.com/user-attachments/assets/82326510-d5e4-42f1-b93b-aa7918a632c8" />  
+```
+print('x y z w')
+for x in range(2):
+    for y in range(2):
+        for z in range(2):
+            for w in range(2):
+                if not(((x <= y) and (y <= w)) or (z == (x or y))):
+                    print(x, y, z, w)
+```
+Ответ:
