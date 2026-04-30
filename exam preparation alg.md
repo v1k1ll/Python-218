@@ -82,7 +82,6 @@ for x in range(0, 2):
 ```
 Ответ:yxwz
 ##
-# РАЗОБРАТЬ 6
 6  
 №18614  
 <img width="828" height="252" alt="image" src="https://github.com/user-attachments/assets/2be8a9ae-cccf-49b4-b4a9-2d0e2d06f8d4" />  
@@ -109,7 +108,6 @@ for x in range(0,2):
 ```
 Ответ:xwyz
 ##
-# ИСМАИЛОВ
 7  
 №55589  
 <img width="771" height="327" alt="image" src="https://github.com/user-attachments/assets/73b17767-95dd-4ed3-9e40-e8f4c8653a40" />  
@@ -123,7 +121,7 @@ for x in range(0,2):
                 f2 = (x<=y) and ((not w) == z)
                 print(x,y,z,w,int(f1), int(f2))
 ```
-Ответ:
+Ответ: xzyw
 ##
 # Сергеев
 8  
