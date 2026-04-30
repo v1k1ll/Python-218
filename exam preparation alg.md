@@ -129,5 +129,22 @@ for x in range(0,2):
 <img width="776" height="286" alt="image" src="https://github.com/user-attachments/assets/500f62fb-7e97-4b9a-944e-34c4641db31e" />  
 чтоб узнать ложную строку
 ```
-
+print("x y z w")
+for x in range(2):
+    for y in range(2):
+        for z in range(2):
+            for w in range(2):
+               if not((x <=(y == w)) and (y == (w <= z))):
+                    print(x, y, z, w)
 ```
+чтоб узнать истиную строку
+```
+print("x y z w")
+for x in range(2):
+    for y in range(2):
+        for z in range(2):
+            for w in range(2):
+               if (x <=(y == w)) and (y == (w <= z)):
+                    print(x, y, z, w)
+```
+Ответ: yxwz
