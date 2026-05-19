@@ -123,7 +123,6 @@ for x in range(0,2):
 ```
 Ответ: xzyw
 ##
-# Сергеев
 8  
 №48423  
 <img width="776" height="286" alt="image" src="https://github.com/user-attachments/assets/500f62fb-7e97-4b9a-944e-34c4641db31e" />  
@@ -149,7 +148,6 @@ for x in range(2):
 ```
 Ответ: yxwz
 ##
-# Исроилов
 8  
 №15787  
 <img width="919" height="277" alt="image" src="https://github.com/user-attachments/assets/82326510-d5e4-42f1-b93b-aa7918a632c8" />  
