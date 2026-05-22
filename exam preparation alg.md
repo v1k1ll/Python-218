@@ -1,4 +1,4 @@
-## ШПАРГАЛКА В САМОМ НАЧАЛЕ
+<img width="844" height="260" alt="image" src="https://github.com/user-attachments/assets/691cfc61-1666-4825-9eaa-7454cd367028" />## ШПАРГАЛКА В САМОМ НАЧАЛЕ
 ∧ - and,   
 ∨ - or,  
 ≡ - ==,   
@@ -148,7 +148,7 @@ for x in range(2):
 ```
 Ответ: yxwz
 ##
-8  
+9  
 №15787  
 <img width="919" height="277" alt="image" src="https://github.com/user-attachments/assets/82326510-d5e4-42f1-b93b-aa7918a632c8" />  
 ```
@@ -161,9 +161,274 @@ for x in range(2):
                     print(x, y, z, w)
 ```
 Ответ: ywzx
+##
+10  
+№85678  
+<img width="879" height="397" alt="image" src="https://github.com/user-attachments/assets/d146adaa-4351-440e-b2bf-792197418611" />
+```
+print('x y w z')
+for x in range (2):
+    for y in range (2):
+        for w in range (2):
+            for z in range (2):
+                if not((not w) or ((z <= x) <= y)):
+                    print(x,y,w,z)
+```
+Ответ: yxwz
+##
+11  
+№18578  
+<img width="844" height="260" alt="image" src="https://github.com/user-attachments/assets/1e69ee8d-82ca-4d7d-aa89-81ce6bae44ed" />
+```
+print('x y w z')
+for x in range (2):
+    for y in range (2):
+        for w in range (2):
+            for z in range (2):
+                if ((x and (not y)) or (w <= z)) == (z == x):
+                    print(x,y,w,z)
+```
+Ответ: zywx
+##
+12  
+№81786  
+<img width="873" height="200" alt="image" src="https://github.com/user-attachments/assets/8461b979-f092-4af2-8238-13af1addad09" />
+```
+print('x y w z')
+for x in range (2):
+    for y in range (2):
+        for w in range (2):
+            for z in range (2):
+                if (x or y) and (not(y==z)) and (not w):
+                    print(x,y,w,z)
+```
+Ответ: zyxw
+##
+13  
+№17320  
+<img width="809" height="213" alt="image" src="https://github.com/user-attachments/assets/7b3649cb-6ff3-4b3c-b5bc-30695bd748c2" />
+```
 
+```
+Ответ:
+##
+14  
+№48450  
+
+```
+
+```
+Ответ:
+##
+15  
+№40718  
+
+```
+
+```
+Ответ:
+##
+16  
+№73828  
+
+```
+
+```
+Ответ:
+##
+17  
+№45236  
+  
+```
+
+```
+Ответ:
+##
+18  
+№33504  
+  
+```
+
+```
+Ответ:
+##
+19  
+№64932  
+  
+```
+
+```
+Ответ:
+##
+20  
+№64887  
+  
+```
+
+```
+Ответ:
+##
+21  
+№72587  
+  
+```
+
+```
+Ответ:
 ##
 # ТИП - 8
+##
+1  
+№3697   
+
+```
+
+```
+Ответ:
+##
+2  
+№78064  
+
+```
+
+```
+Ответ:
+##
+3  
+№55625  
+
+```
+
+```
+Ответ:
+##
+4  
+№7667  
+
+```
+
+```
+Ответ:
+##
+5  
+№17328  
+
+```
+
+```
+Ответ:
+##
+6  
+№27539  
+
+```
+
+```
+Ответ:
+##
+7  
+№18491  
+
+```
+
+```
+Ответ:
+##
+8  
+№37143  
+
+```
+
+```
+Ответ:
+##
+9  
+№59745  
+
+```
+
+```
+Ответ:
+##
+10  
+№10473  
+
+```
+
+```
+Ответ:
+##
+11  
+№60250  
+
+```
+
+```
+Ответ:
+##
+12  
+№64938  
+
+```
+
+```
+Ответ:
+##
+13  
+№9796  
+
+```
+
+```
+Ответ:
+##
+14  
+№27009  
+
+```
+
+```
+Ответ:
+##
+15  
+№15822  
+
+```
+
+```
+Ответ:
+##
+16  
+№28546  
+
+```
+
+```
+Ответ:
+##
+17  
+№15795  
+  
+```
+
+```
+Ответ:
+##
+18  
+№3700  
+  
+```
+
+```
+Ответ:
+##
+19  
+№3237  
+  
+```
+
+```
+Ответ:
 ##
 20  
 №13486    
@@ -177,3 +442,12 @@ for i in product('ABCX', repeat=5):
 print(a)
 ```
 Ответ: 162
+##
+21  
+№59741  
+  
+```
+
+```
+Ответ:
+##
