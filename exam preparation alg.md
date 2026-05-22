@@ -1,4 +1,4 @@
-## ШПАРГАЛКА В САМОМ НАЧАЛЕ
+<img width="851" height="215" alt="image" src="https://github.com/user-attachments/assets/1b876568-0ddf-42ae-ad00-b8eb3e344138" />## ШПАРГАЛКА В САМОМ НАЧАЛЕ
 ∧ - and,   
 ∨ - or,  
 ≡ - ==,   
@@ -208,99 +208,195 @@ for x in range (2):
 №17320  
 <img width="809" height="213" alt="image" src="https://github.com/user-attachments/assets/7b3649cb-6ff3-4b3c-b5bc-30695bd748c2" />
 ```
-
+print('x y w z')
+for x in range (2):
+    for y in range (2):
+        for w in range (2):
+            for z in range (2):
+                if ((x and y) or (y and z)) == ((x <= w) and (w <=z)):
+                    print(x,y,w,z)
 ```
-Ответ:
+Ответ: xwzy
 ##
 14  
 №48450  
-
+<img width="845" height="218" alt="image" src="https://github.com/user-attachments/assets/dd2dd081-9b30-46f3-b9fd-9337627dfa26" />
+чтоб узнать ложную строку
 ```
-
+print('x y w z')
+for x in range (2):
+    for y in range (2):
+        for w in range (2):
+            for z in range (2):
+                if not ((w <= (y == z)) and (y == (z <=x))):
+                    print(x,y,w,z)
 ```
-Ответ:
+чтоб узнать истиную строку
+```
+print('x y w z')
+for x in range (2):
+    for y in range (2):
+        for w in range (2):
+            for z in range (2):
+                if (w <= (y == z)) and (y == (z <=x)):
+                    print(x,y,w,z)
+```
+Ответ: zwyx
 ##
 15  
 №40718  
-
+<img width="841" height="208" alt="image" src="https://github.com/user-attachments/assets/2a4bd183-47b8-48b3-aeb3-3cd6caf68201" />
 ```
-
+print('x y w z')
+for x in range (2):
+    for y in range (2):
+        for w in range (2):
+            for z in range (2):
+                if not (((x <= y) and (z or w)) <= ((x == w) or (y and (not z)))):
+                    print(x,y,w,z)
 ```
-Ответ:
+Ответ: yxwz
 ##
 16  
 №73828  
-
+<img width="752" height="197" alt="image" src="https://github.com/user-attachments/assets/497da220-13ae-4eae-aa70-ba57c0f072e8" />
+чтоб узнать ложную строку
 ```
-
+print('x y w z')
+for x in range (2):
+    for y in range (2):
+        for w in range (2):
+            for z in range (2):
+                if not ((x == (y <= z)) and (y == (not(z <=w)))):
+                    print(x,y,w,z)
 ```
-Ответ:
+чтоб узнать истиную строку
+```
+print('x y w z')
+for x in range (2):
+    for y in range (2):
+        for w in range (2):
+            for z in range (2):
+                if (x == (y <= z)) and (y == (not(z <=w))):
+                    print(x,y,w,z)
+```
+Ответ: wzxy
 ##
 17  
 №45236  
-  
+<img width="851" height="215" alt="image" src="https://github.com/user-attachments/assets/be1149c8-b0db-4658-9ecb-da19839c087f" />
 ```
-
+print('x y w z')
+for x in range (2):
+    for y in range (2):
+        for w in range (2):
+            for z in range (2):
+                if not((not(x <= w)) or (y == z) or y):
+                    print(x,y,w,z)
 ```
-Ответ:
+Ответ: zxwy
 ##
 18  
 №33504  
-  
+<img width="836" height="206" alt="image" src="https://github.com/user-attachments/assets/40a03c7d-04ec-4f62-8455-8013f43e989d" />
 ```
-
+print('x y w z')
+for x in range (2):
+    for y in range (2):
+        for w in range (2):
+            for z in range (2):
+                if not (((x == (not y)) <= (y and (not z))) or (z and (not w))):
+                    print(x,y,w,z)
 ```
-Ответ:
+Ответ: wzxy
 ##
 19  
 №64932  
-  
+<img width="745" height="191" alt="image" src="https://github.com/user-attachments/assets/0c4d80e6-4cb7-408b-9806-48082fbd6c32" />
 ```
-
+print('x y w z')
+for x in range (2):
+    for y in range (2):
+        for w in range (2):
+            for z in range (2):
+                if ((x ==z) <= ((not y) or w)) == (not((w <= z) or (x<= y))):
+                    print(x,y,w,z)
 ```
-Ответ:
+Ответ: zyxw
 ##
 20  
 №64887  
-  
+<img width="730" height="193" alt="image" src="https://github.com/user-attachments/assets/aeeb8460-bb2e-41c7-8e26-2f0dcb8094a2" />  
 ```
-
+print('x y w z')
+for x in range (2):
+    for y in range (2):
+        for w in range (2):
+            for z in range (2):
+                if ((x == y) <= ((not z) or w)) == (not((w <= x) or (y <= z))):
+                    print(x,y,w,z)
 ```
-Ответ:
+Ответ: wzyx
 ##
 21  
 №72587  
-  
+<img width="748" height="204" alt="image" src="https://github.com/user-attachments/assets/2e34f3dc-bd84-4e0d-87da-dc04d1445110" />  
 ```
-
+print('x y w z')
+for x in range (2):
+    for y in range (2):
+        for w in range (2):
+            for z in range (2):
+                if not((x <= (z <= w)) and (z <= (y == (not w)))):
+                    print(x,y,w,z)
 ```
-Ответ:
+Ответ: zxwy
 ##
 # ТИП - 8
 ##
 1  
 №3697   
-
+<img width="845" height="158" alt="image" src="https://github.com/user-attachments/assets/964bc2b8-3821-43de-8d4a-c003cf307784" />
 ```
-
+from itertools import *
+a=0
+for i in product('ВИНТ', repeat=5):
+    a+=1
+    if a == 1019:
+        print(a,''.join(i))
 ```
-Ответ:
+Ответ: ТТТНН
 ##
 2  
 №78064  
-
+<img width="854" height="187" alt="image" src="https://github.com/user-attachments/assets/8e4505b3-8d18-4303-88a2-6819221f4f68" />
 ```
-
+from itertools import *
+a=0
+for i in product(sorted('КРОВАТЬ'), repeat=5):
+    b=''.join(i)
+    a += 1
+    if b.count('Т') <= 1 and b.count('В') == 2 and 'ЬЬ' not in b and a % 2 != 0:
+        print(a)
 ```
-Ответ:
+Ответ: 16277
 ##
 3  
 №55625  
-
+<img width="828" height="51" alt="image" src="https://github.com/user-attachments/assets/ebee4e95-6f2d-4dd5-9739-e07629a187fd" />
 ```
-
+from itertools import *
+a=0
+cn=0
+for i in permutations('ЯРОСЛАВ', r=5):
+    sl=''.join(i)
+    if sl.count('Я') + sl.count('О') + sl.count('А') < sl.count('Р') + sl.count('С') + sl.count('Л') + sl.count('В') \
+    and 'ЯЯ' not in sl and 'ОО' not in sl and 'АА' not in sl and 'ЯО' not in sl and 'ЯА' not in sl \
+    and 'ОЯ' not in sl and 'ОА' not in sl and 'АО' not in sl and 'АЯ' not in sl:
+        cn+=1
+print(cn)
 ```
-Ответ:
+Ответ: 1224
 ##
 4  
 №7667  
