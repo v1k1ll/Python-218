@@ -399,9 +399,15 @@ print(cn)
 ##
 4  
 №7667  
-
+<img width="841" height="33" alt="image" src="https://github.com/user-attachments/assets/42acd06d-5b29-40c4-a7bc-71b0b05985ad" />
 ```
-
+from itertools import *
+a=0
+for i in product('ЕГЭ', repeat=5):
+    sl=''.join(i)
+    if sl[0] == 'Е' or sl[0] == 'Э':
+        a+=1
+print(a)
 ```
 Ответ:
 ##
