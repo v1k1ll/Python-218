@@ -1,4 +1,3 @@
-<img width="851" height="215" alt="image" src="https://github.com/user-attachments/assets/1b876568-0ddf-42ae-ad00-b8eb3e344138" />## ШПАРГАЛКА В САМОМ НАЧАЛЕ
 ∧ - and,   
 ∨ - or,  
 ≡ - ==,   
