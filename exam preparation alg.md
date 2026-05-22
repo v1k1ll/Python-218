@@ -8,9 +8,9 @@
 1 - истина
 
 ##
-ВСЕ ЗАДАНИЯ РЕШАЮТСЯ НА САЙТЕ "СДАМ ЕГЭ".  
+# ВСЕ ЗАДАНИЯ РЕШАЮТСЯ НА САЙТЕ "СДАМ ЕГЭ".  
 ##
-ТИП - 2
+# ТИП - 2
 ##
 1  
 № 28677  
@@ -161,3 +161,19 @@ for x in range(2):
                     print(x, y, z, w)
 ```
 Ответ: ywzx
+
+##
+# ТИП - 8
+##
+20  
+№13486    
+<img width="850" height="64" alt="image" src="https://github.com/user-attachments/assets/27dd1c81-79a3-4bf9-aff3-78017e675baa" />
+```
+from itertools import *
+a=0
+for i in product('ABCX', repeat=5):
+    if i.count('X') == 1 and (i[0] == 'X' or i[-1] == 'X'):
+        a+=1
+print(a)
+```
+Ответ: 162
