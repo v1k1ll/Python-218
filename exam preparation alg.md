@@ -484,11 +484,17 @@ print(a)
 ##
 13  
 №9796  
-
+<img width="832" height="64" alt="image" src="https://github.com/user-attachments/assets/b8eab671-8d0f-40f5-b8fb-6139de69f5a4" />  
 ```
-
+from itertools import *
+a=0
+for i in product('ABCX', repeat=5):
+    sl=''.join(i)
+    if sl.count('X') == 1:
+        a+=1
+print(a)
 ```
-Ответ:
+Ответ:405
 ##
 14  
 №27009  
@@ -524,19 +530,31 @@ print(a)
 ##
 18  
 №3700  
-  
+<img width="830" height="152" alt="image" src="https://github.com/user-attachments/assets/d6069086-70f0-4ea2-a613-7c0e130b607d" />    
 ```
-
+from itertools import *
+a=0
+for i in product('БКФС', repeat=5):
+    sl=''.join(i)
+    a+=1
+    if a == 486:
+        print(a,sl)
 ```
-Ответ:
+Ответ:КСФКК
 ##
 19  
 №3237  
-  
+<img width="746" height="125" alt="image" src="https://github.com/user-attachments/assets/6f77ce6f-6500-4499-821b-31470526c833" />    
 ```
-
+from itertools import *
+a=0
+for i in product('AOY', repeat=5):
+    sl=''.join(i)
+    a+=1
+    if a == 170:
+        print(a,sl)
 ```
-Ответ:
+Ответ:YAAYO
 ##
 20  
 №13486    
@@ -570,5 +588,5 @@ for i in permutations('0234567', r=5):
             a+=1
 print(a)
 ```
-Ответ:
+Ответ: 180
 ##
