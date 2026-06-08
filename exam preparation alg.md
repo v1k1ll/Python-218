@@ -11,6 +11,7 @@
 # 8.  
 ### from itertools import * - из intertool импортировать всё  
 ### product('...', repeat=...) - все комбинации указанных букв в указанном порядке ('Буквы', кол-во букв в строке)
+### for i in permutations('', r=...) - все комбинации указанных букв без повторений одиноковых букв ('Буквы', кол-во букв в строке)
 
 ##
 # ВСЕ ЗАДАНИЯ РЕШАЮТСЯ НА САЙТЕ "СДАМ ЕГЭ".  
@@ -552,9 +553,22 @@ print(a)
 ##
 21  
 №59741  
-  
+<img width="845" height="39" alt="image" src="https://github.com/user-attachments/assets/13c1f250-cd46-4e10-af45-53b5c7f1b562" />    
 ```
-
+from itertools import *
+a=0
+for i in permutations('0234567', r=5):
+    sl = ''.join(i)
+    if i[0] != '0':
+        sl = sl.replace('3','1')
+        sl = sl.replace('5','1')
+        sl = sl.replace('7','1')
+        sl = sl.replace('2','0')
+        sl = sl.replace('4','0')
+        sl = sl.replace('6','0')
+        if '00' not in sl and '11' not in sl:
+            a+=1
+print(a)
 ```
 Ответ:
 ##
