@@ -1,4 +1,4 @@
-# ШПАРГАЛКИ
+<img width="836" height="179" alt="image" src="https://github.com/user-attachments/assets/9ca182f8-8cd7-4220-a7a3-f67f433d3113" /># ШПАРГАЛКИ
 # 2.  
 ∧ - and,   
 ∨ - or,  
@@ -416,63 +416,122 @@ for i in product('ЕГЭ', repeat=5):
         a+=1
 print(a)
 ```
-Ответ:
+Ответ:162
 ##
 5  
 №17328  
-
+<img width="827" height="33" alt="image" src="https://github.com/user-attachments/assets/aefd119a-b388-4c3c-b2df-59fe606018fd" />  
 ```
-
+from itertools import *
+a=0
+for i in permutations("ГЕРАСИМ", r=7):
+    sl = "".join(i)
+    sl= sl.replace('Г','1')
+    sl= sl.replace('Р','1')
+    sl= sl.replace('С','1')
+    sl= sl.replace('М','1')
+    sl= sl.replace('Е','0')
+    sl= sl.replace('А','0')
+    sl= sl.replace('И','0')
+    if '11' not in sl and '00' not in sl:
+        a+=1
+print(a)
 ```
-Ответ:
+Ответ:144
 ##
 6  
 №27539  
-
+<img width="832" height="48" alt="image" src="https://github.com/user-attachments/assets/855c4df7-2a19-4af5-8d11-7e38faf4871e" />  
 ```
-
+from itertools import *
+a=0
+for i in product("БОРИС", repeat=6):
+    sl = "".join(i)
+    if sl.count('Б') == 1 and sl.count('Р') == 1 and sl.count('С') <=1:
+        a += 1
+print(a)
 ```
-Ответ:
+Ответ:1440
 ##
 7  
 №18491  
-
+<img width="830" height="30" alt="image" src="https://github.com/user-attachments/assets/58a7bb25-630a-4718-8995-eefee9f8a57e" />
 ```
-
+from itertools import *
+a=0
+for i in permutations("ОЛЬГА", r=5):
+    sl = "".join(i)
+    sl = sl.replace('О', '1')
+    sl = sl.replace('А', '1')
+    if sl[0] != 'Ь' and '1Ь' not in sl:
+        a += 1
+print(a)
 ```
-Ответ:
+Ответ:48
 ##
 8  
 №37143  
-
+<img width="836" height="35" alt="image" src="https://github.com/user-attachments/assets/4bb3956c-a200-4920-bedf-8f4ed3c2edbd" />
 ```
-
+from itertools import *
+a=0
+for i in product("ГЕПАРД", repeat=5):
+    sl = "".join(i)
+    if sl[0] != 'А' and sl[-1] != 'Е' and sl.count('Г') == 1:
+        a += 1
+print(a)
 ```
-Ответ:
+Ответ:2200
 ##
 9  
 №59745  
-
+<img width="836" height="179" alt="image" src="https://github.com/user-attachments/assets/243ae4a2-b911-4fb6-a793-c0ebf29400a0" />
 ```
-
+from itertools import *
+a=0
+c=0
+for i in product(sorted("АЛГОРИТМ"), repeat=5):
+    a+=1
+    sl = "".join(i)
+    if a % 2 != 0 and sl.count('И') >= 2 and sl[0] != 'Г':
+        c += 1
+print(c)
 ```
-Ответ:
+Ответ:2429
 ##
 10  
 №10473  
-
+<img width="834" height="51" alt="image" src="https://github.com/user-attachments/assets/507c8f92-744b-4a02-a017-c5fa58e141e3" />  
 ```
-
+from itertools import *
+a=0
+for i in product('1234', repeat=5):
+    sl= ''.join(i)
+    if sl.count('1') == 2:
+        a+=1
+print(a)
 ```
-Ответ:
+Ответ:270
 ##
 11  
 №60250  
-
+<img width="835" height="34" alt="image" src="https://github.com/user-attachments/assets/037255b7-2dd4-4a19-aa05-e3e2eef0208d" />  
 ```
-
+from itertools import *
+a=0
+for i in permutations('0234567', r=5):
+    sl= ''.join(i)
+    if sl[0] != '0' :
+        sl = sl.replace('2','0')
+        sl = sl.replace('4', '0')
+        sl = sl.replace('6', '0')
+        sl = sl.replace('5', '3')
+        sl = sl.replace('7', '3')
+        if '00' not in sl and '33' not in sl:
+            a+=1
+print(a)
 ```
-Ответ:
+Ответ:180
 ##
 12  
 №64938  
@@ -498,35 +557,68 @@ print(a)
 ##
 14  
 №27009  
-
+<img width="836" height="49" alt="image" src="https://github.com/user-attachments/assets/2c082e14-7019-444b-8115-221c62633fa2" />  
 ```
-
+from itertools import *
+a=0
+for i in product('НИКОЛАЙ', repeat=4):
+    sl= ''.join(i)
+    sl = sl.replace('И','1')
+    sl = sl.replace('О', '1')
+    sl = sl.replace('А', '1')
+    if sl[0] != 'Й' and sl.count('1') >= 1:
+        a+=1
+print(a)
 ```
-Ответ:
+Ответ:1866
 ##
 15  
 №15822  
-
+<img width="833" height="151" alt="image" src="https://github.com/user-attachments/assets/46a90908-2dc0-4a20-b5e6-0ea2adff898d" />  
 ```
-
+from itertools import *
+a=0
+for i in product(sorted('РЕКА'), repeat=4):
+    sl = ''.join(i)
+    a+=1
+    if 'А' not in sl:
+        print(a,sl)
 ```
-Ответ:
+Ответ:86
 ##
 16  
 №28546  
-
+<img width="828" height="40" alt="image" src="https://github.com/user-attachments/assets/fc4b953a-a581-456b-bc92-0854fb1c61ce" />  
 ```
-
+from itertools import *
+c=0
+a=0
+for i in permutations('НАСТЯ', r=4):
+    sl = ''.join(i)
+    sl = sl.replace('Н','1')
+    sl = sl.replace('С', '1')
+    sl = sl.replace('Т', '1')
+    sl = sl.replace('А', '0')
+    sl = sl.replace('Я', '0')
+    if '00' not in sl and '11' not in sl:
+        c+=1
+print(c)
 ```
-Ответ:
+Ответ:24
 ##
 17  
 №15795  
-  
+<img width="837" height="174" alt="image" src="https://github.com/user-attachments/assets/fbec078e-8ff2-4f08-a5f4-bec602f69664" />    
 ```
-
+from itertools import *
+a=0
+for i in product(sorted('ПАРУС'), repeat=4):
+    sl = ''.join(i)
+    a+=1
+    if 'А' not in sl:
+        print(a,sl)
 ```
-Ответ:
+Ответ:157
 ##
 18  
 №3700  
