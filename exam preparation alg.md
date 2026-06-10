@@ -1,4 +1,4 @@
-<img width="836" height="179" alt="image" src="https://github.com/user-attachments/assets/9ca182f8-8cd7-4220-a7a3-f67f433d3113" /># ШПАРГАЛКИ
+# ШПАРГАЛКИ
 # 2.  
 ∧ - and,   
 ∨ - or,  
